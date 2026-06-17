@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /thank-you
+
+Sitemap: https://www.mcinallys.co.uk/sitemap.xml
