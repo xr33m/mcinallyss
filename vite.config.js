@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
-    outDir: resolve(__dirname, '../dist'),
+    outDir: resolve(__dirname, 'dist'),
     emptyOutDir: true,
     rollupOptions: {
       input: {
@@ -30,6 +30,7 @@ export default defineConfig({
         'radiator-repair-leith': resolve(__dirname, 'radiator-repair-leith.html'),
         'radiator-repair-morningside': resolve(__dirname, 'radiator-repair-morningside.html'),
         'radiator-repair-stockbridge': resolve(__dirname, 'radiator-repair-stockbridge.html'),
+        'plumbing-heating': resolve(__dirname, 'plumbing-heating.html'),
         'boiler-service': resolve(__dirname, 'boiler-service.html'),
         'kitchen-fitting': resolve(__dirname, 'kitchen-fitting.html'),
         'thank-you': resolve(__dirname, 'thank-you.html'),
