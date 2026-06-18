@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /thank-you
 
-Sitemap: https://www.mcinallys.co.uk/sitemap.xml
+Sitemap: https://mcinallys.co.uk/sitemap.xml
