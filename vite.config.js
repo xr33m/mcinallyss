@@ -34,6 +34,7 @@ export default defineConfig({
         'boiler-service': resolve(__dirname, 'boiler-service.html'),
         'kitchen-fitting': resolve(__dirname, 'kitchen-fitting.html'),
         'thank-you': resolve(__dirname, 'thank-you.html'),
+        'privacy-policy': resolve(__dirname, 'privacy-policy.html'),
       },
     },
   },

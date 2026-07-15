@@ -2037,7 +2037,7 @@ p  { line-height: 1.7; color: var(--text-secondary); }
   border-bottom: 1px solid var(--navy-700);
 }
 @media (min-width: 640px)  { .footer-grid { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 900px)  { .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; } }
+@media (min-width: 900px)  { .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; } }
 
 .footer-logo-img { height: 56px; width: auto; display: block; filter: brightness(0) invert(1); }
 

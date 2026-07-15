@@ -2,6 +2,154 @@
   command = "npm run build"
   publish = "dist"
 
+# www → non-www (must come first)
+[[redirects]]
+  from = "https://www.mcinallys.co.uk/*"
+  to   = "https://mcinallys.co.uk/:splat"
+  status = 301
+  force  = true
+
+# .html → clean URL redirects
+[[redirects]]
+  from = "/index.html"
+  to   = "/"
+  status = 301
+
+[[redirects]]
+  from = "/about.html"
+  to   = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to   = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to   = "/privacy-policy"
+  status = 301
+
+[[redirects]]
+  from = "/thank-you.html"
+  to   = "/thank-you"
+  status = 301
+
+[[redirects]]
+  from = "/emergency-plumbing.html"
+  to   = "/emergency-plumbing"
+  status = 301
+
+[[redirects]]
+  from = "/plumbing-heating.html"
+  to   = "/plumbing-heating"
+  status = 301
+
+[[redirects]]
+  from = "/leak-repair.html"
+  to   = "/leak-repair"
+  status = 301
+
+[[redirects]]
+  from = "/bathroom-fitting.html"
+  to   = "/bathroom-fitting"
+  status = 301
+
+[[redirects]]
+  from = "/kitchen-fitting.html"
+  to   = "/kitchen-fitting"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-service.html"
+  to   = "/boiler-service"
+  status = 301
+
+[[redirects]]
+  from = "/radiator-repair.html"
+  to   = "/radiator-repair"
+  status = 301
+
+[[redirects]]
+  from = "/blocked-drains.html"
+  to   = "/blocked-drains"
+  status = 301
+
+[[redirects]]
+  from = "/emergency-plumber-leith.html"
+  to   = "/emergency-plumber-leith"
+  status = 301
+
+[[redirects]]
+  from = "/leak-repair-leith.html"
+  to   = "/leak-repair-leith"
+  status = 301
+
+[[redirects]]
+  from = "/bathroom-fitting-leith.html"
+  to   = "/bathroom-fitting-leith"
+  status = 301
+
+[[redirects]]
+  from = "/radiator-repair-leith.html"
+  to   = "/radiator-repair-leith"
+  status = 301
+
+[[redirects]]
+  from = "/blocked-drains-leith.html"
+  to   = "/blocked-drains-leith"
+  status = 301
+
+[[redirects]]
+  from = "/emergency-plumber-morningside.html"
+  to   = "/emergency-plumber-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/leak-repair-morningside.html"
+  to   = "/leak-repair-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/bathroom-fitting-morningside.html"
+  to   = "/bathroom-fitting-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/radiator-repair-morningside.html"
+  to   = "/radiator-repair-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/blocked-drains-morningside.html"
+  to   = "/blocked-drains-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/emergency-plumber-stockbridge.html"
+  to   = "/emergency-plumber-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/leak-repair-stockbridge.html"
+  to   = "/leak-repair-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/bathroom-fitting-stockbridge.html"
+  to   = "/bathroom-fitting-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/radiator-repair-stockbridge.html"
+  to   = "/radiator-repair-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/blocked-drains-stockbridge.html"
+  to   = "/blocked-drains-stockbridge"
+  status = 301
+
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
