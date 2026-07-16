@@ -150,6 +150,71 @@
   to   = "/blocked-drains-stockbridge"
   status = 301
 
+[[redirects]]
+  from = "/kitchen-fitting-leith.html"
+  to   = "/kitchen-fitting-leith"
+  status = 301
+
+[[redirects]]
+  from = "/kitchen-fitting-morningside.html"
+  to   = "/kitchen-fitting-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/kitchen-fitting-stockbridge.html"
+  to   = "/kitchen-fitting-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-service-leith.html"
+  to   = "/boiler-service-leith"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-service-morningside.html"
+  to   = "/boiler-service-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-service-stockbridge.html"
+  to   = "/boiler-service-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/plumbing-heating-leith.html"
+  to   = "/plumbing-heating-leith"
+  status = 301
+
+[[redirects]]
+  from = "/plumbing-heating-morningside.html"
+  to   = "/plumbing-heating-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/plumbing-heating-stockbridge.html"
+  to   = "/plumbing-heating-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-installation.html"
+  to   = "/boiler-installation"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-installation-new-town.html"
+  to   = "/boiler-installation-new-town"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-installation-the-grange.html"
+  to   = "/boiler-installation-the-grange"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-installation-merchiston.html"
+  to   = "/boiler-installation-merchiston"
+  status = 301
+
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
