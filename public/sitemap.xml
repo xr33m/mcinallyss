@@ -1790,4 +1790,35 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Zone hub pages -->
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-central-north-edinburgh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-west-edinburgh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-south-west-edinburgh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-south-edinburgh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-south-east-edinburgh</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mcinallys.co.uk/plumbers-midlothian</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

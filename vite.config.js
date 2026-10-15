@@ -1,54 +1,23 @@
 import { resolve } from 'path'
+import { readdirSync } from 'fs'
 import { defineConfig } from 'vite'
+
+// Build every top-level .html file automatically, so new service/area/hub pages
+// are never left out of the build (index.html is the entry named "main").
+const input = Object.fromEntries(
+  readdirSync(__dirname)
+    .filter((file) => file.endsWith('.html'))
+    .sort()
+    .map((file) => [
+      file === 'index.html' ? 'main' : file.replace(/\.html$/, ''),
+      resolve(__dirname, file),
+    ])
+)
 
 export default defineConfig({
   build: {
     outDir: resolve(__dirname, 'dist'),
     emptyOutDir: true,
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about.html'),
-        contact: resolve(__dirname, 'contact.html'),
-        'bathroom-fitting': resolve(__dirname, 'bathroom-fitting.html'),
-        'bathroom-fitting-leith': resolve(__dirname, 'bathroom-fitting-leith.html'),
-        'bathroom-fitting-morningside': resolve(__dirname, 'bathroom-fitting-morningside.html'),
-        'bathroom-fitting-stockbridge': resolve(__dirname, 'bathroom-fitting-stockbridge.html'),
-        'blocked-drains': resolve(__dirname, 'blocked-drains.html'),
-        'blocked-drains-leith': resolve(__dirname, 'blocked-drains-leith.html'),
-        'blocked-drains-morningside': resolve(__dirname, 'blocked-drains-morningside.html'),
-        'blocked-drains-stockbridge': resolve(__dirname, 'blocked-drains-stockbridge.html'),
-        'emergency-plumbing': resolve(__dirname, 'emergency-plumbing.html'),
-        'emergency-plumber-leith': resolve(__dirname, 'emergency-plumber-leith.html'),
-        'emergency-plumber-morningside': resolve(__dirname, 'emergency-plumber-morningside.html'),
-        'emergency-plumber-stockbridge': resolve(__dirname, 'emergency-plumber-stockbridge.html'),
-        'leak-repair': resolve(__dirname, 'leak-repair.html'),
-        'leak-repair-leith': resolve(__dirname, 'leak-repair-leith.html'),
-        'leak-repair-morningside': resolve(__dirname, 'leak-repair-morningside.html'),
-        'leak-repair-stockbridge': resolve(__dirname, 'leak-repair-stockbridge.html'),
-        'radiator-repair': resolve(__dirname, 'radiator-repair.html'),
-        'radiator-repair-leith': resolve(__dirname, 'radiator-repair-leith.html'),
-        'radiator-repair-morningside': resolve(__dirname, 'radiator-repair-morningside.html'),
-        'radiator-repair-stockbridge': resolve(__dirname, 'radiator-repair-stockbridge.html'),
-        'plumbing-heating': resolve(__dirname, 'plumbing-heating.html'),
-        'plumbing-heating-leith': resolve(__dirname, 'plumbing-heating-leith.html'),
-        'plumbing-heating-morningside': resolve(__dirname, 'plumbing-heating-morningside.html'),
-        'plumbing-heating-stockbridge': resolve(__dirname, 'plumbing-heating-stockbridge.html'),
-        'boiler-service': resolve(__dirname, 'boiler-service.html'),
-        'boiler-service-leith': resolve(__dirname, 'boiler-service-leith.html'),
-        'boiler-service-morningside': resolve(__dirname, 'boiler-service-morningside.html'),
-        'boiler-service-stockbridge': resolve(__dirname, 'boiler-service-stockbridge.html'),
-        'boiler-installation': resolve(__dirname, 'boiler-installation.html'),
-        'boiler-installation-new-town': resolve(__dirname, 'boiler-installation-new-town.html'),
-        'boiler-installation-the-grange': resolve(__dirname, 'boiler-installation-the-grange.html'),
-        'boiler-installation-merchiston': resolve(__dirname, 'boiler-installation-merchiston.html'),
-        'kitchen-fitting': resolve(__dirname, 'kitchen-fitting.html'),
-        'kitchen-fitting-leith': resolve(__dirname, 'kitchen-fitting-leith.html'),
-        'kitchen-fitting-morningside': resolve(__dirname, 'kitchen-fitting-morningside.html'),
-        'kitchen-fitting-stockbridge': resolve(__dirname, 'kitchen-fitting-stockbridge.html'),
-        'thank-you': resolve(__dirname, 'thank-you.html'),
-        'privacy-policy': resolve(__dirname, 'privacy-policy.html'),
-      },
-    },
+    rollupOptions: { input },
   },
 })
