@@ -6184,3 +6184,7 @@ a.about-area-tag:hover {
 .guide-prose a { text-decoration: underline; }
 .guide-updated { background: var(--bg-subtle, #f3f4f6); padding: .9rem 1rem; border-radius: 8px; }
 .guide-sources { font-size: .85rem; opacity: .8; margin-top: 2rem; }
+
+.sp-guide-extra h3 { font-size: 1.1rem; margin: 1.25rem 0 .4rem; }
+.sp-guide-extra { background: var(--bg-subtle, #f9fafb); }
+.guide-prose a { text-decoration: underline; }
