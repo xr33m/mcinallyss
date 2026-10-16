@@ -384,14 +384,15 @@ p  { line-height: 1.7; color: var(--text-secondary); }
 .site-logo {
   display: flex;
   align-items: center;
-  background-color: #ffc107;
+  background-color: #27929c; /* matches the van livery teal */
   padding: 0 var(--space-7);
   text-decoration: none;
   flex-shrink: 0;
   align-self: stretch;
   transition: background-color var(--transition);
 }
-.site-logo:hover { background-color: #e6ac00; text-decoration: none; }
+.site-logo:hover { background-color: #1f7a83; text-decoration: none; }
+.site-logo .logo-img { filter: brightness(0) invert(1); }
 .logo-img {
   height: 52px;
   width: auto;
