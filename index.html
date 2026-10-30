@@ -110,8 +110,21 @@
       "Saturday",
       "Sunday"
     ],
-    "opens": "00:00",
-    "closes": "23:59"
+    "opens": "07:00",
+    "closes": "22:00"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+44 7449 984820",
+    "contactType": "emergency service",
+    "areaServed": "GB",
+    "availableLanguage": "English",
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
   },
   "description": "Family run plumbing and heating business based in Edinburgh, Scotland. Same day callouts, 24/7 emergency cover.",
   "priceRange": "££",
@@ -384,17 +397,14 @@
 
           <li class="trust-strip-divider" aria-hidden="true"></li>
 
-          <!-- Checkatrade -->
-          <li class="trust-strip-item trust-strip-item--logo">
-            <div class="trust-strip-logo-wrap">
-              <svg class="checkatrade-logo" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg" aria-label="Checkatrade Approved" role="img">
-                <!-- Green tick badge -->
-                <rect x="0" y="4" width="32" height="32" rx="6" fill="#00A650"/>
-                <polyline points="8,20 14,26 24,14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <!-- Wordmark -->
-                <text x="40" y="17" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#00A650">checkatrade</text>
-                <text x="40" y="32" font-family="Arial, sans-serif" font-weight="400" font-size="10" fill="#6b7280">Approved Tradesperson</text>
-              </svg>
+          <!-- Gas Safe -->
+          <li class="trust-strip-item">
+            <div class="trust-strip-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <div class="trust-strip-text">
+              <span class="trust-strip-label">Gas Safe Registered</span>
+              <span class="trust-strip-value">No. 980504</span>
             </div>
           </li>
 
