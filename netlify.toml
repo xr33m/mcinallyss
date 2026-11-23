@@ -201,6 +201,11 @@
   status = 301
 
 [[redirects]]
+  from = "/unvented-cylinders.html"
+  to   = "/unvented-cylinders"
+  status = 301
+
+[[redirects]]
   from = "/boiler-installation-new-town.html"
   to   = "/boiler-installation-new-town"
   status = 301

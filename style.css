@@ -6189,3 +6189,6 @@ a.about-area-tag:hover {
 .sp-guide-extra h3 { font-size: 1.1rem; margin: 1.25rem 0 .4rem; }
 .sp-guide-extra { background: var(--bg-subtle, #f9fafb); }
 .guide-prose a { text-decoration: underline; }
+
+/* Four-card variant of the brands/types grid (avoids an orphan card on desktop) */
+@media (min-width: 901px) { .bs-brands-grid.bs-brands-grid--four { grid-template-columns: repeat(4, 1fr); } }
