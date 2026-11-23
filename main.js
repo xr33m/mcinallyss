@@ -1,3 +1,33 @@
+// Google Ads conversion tracking (AW-17809405571)
+// Counts a lead when someone taps a phone number, lands on the
+// contact-form thank-you page, or sends an enquiry via the chat widget.
+const ADS_ID = 'AW-17809405571';
+const ADS_CONVERSION = 'AW-17809405571/KZ4NCPzUq9IbEIPtl6xC';
+
+window.dataLayer = window.dataLayer || [];
+window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+if (!document.querySelector(`script[src*="gtag/js?id=${ADS_ID}"]`)) {
+  const adsTag = document.createElement('script');
+  adsTag.async = true;
+  adsTag.src = `https://www.googletagmanager.com/gtag/js?id=${ADS_ID}`;
+  document.head.appendChild(adsTag);
+}
+window.gtag('js', new Date());
+window.gtag('config', ADS_ID);
+
+function trackAdsConversion() {
+  window.gtag('event', 'conversion', { send_to: ADS_CONVERSION });
+}
+
+// Phone number taps (every tel: link on every page)
+document.addEventListener('click', (e) => {
+  if (e.target.closest && e.target.closest('a[href^="tel:"]')) trackAdsConversion();
+}, true);
+
+// Contact form success (the form redirects here after sending)
+if (/\/thank-you(\.html)?\/?$/.test(window.location.pathname)) trackAdsConversion();
+
 // Dark mode toggle
 const html = document.documentElement;
 const themeToggle = document.getElementById('themeToggle');
@@ -702,6 +732,7 @@ document.querySelectorAll('.faq-question').forEach((btn) => {
     } catch { ok = false; }
 
     typing.remove();
+    if (ok) trackAdsConversion();
     showDone(ok);
   }
 
