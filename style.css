@@ -3784,7 +3784,8 @@ p  { line-height: 1.7; color: var(--text-secondary); }
   margin: 0;
 }
 .contact-form-privacy svg { color: var(--teal-500); flex-shrink: 0; }
-.contact-form-error {
+.contact-form-error,
+.booking-form-error {
   background: #fef2f2;
   border: 1px solid #fca5a5;
   color: #b91c1c;
@@ -3793,7 +3794,10 @@ p  { line-height: 1.7; color: var(--text-secondary); }
   font-size: 0.9rem;
   line-height: 1.5;
 }
-.contact-form-error a { color: #991b1b; font-weight: 600; }
+.contact-form-error a,
+.booking-form-error a { color: #991b1b; font-weight: 600; }
+.booking-form-error { margin-top: var(--space-3); }
+.booking-form-error[hidden] { display: none; }
 
 /* 4. Map */
 .contact-map-section {
