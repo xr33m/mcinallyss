@@ -480,6 +480,65 @@ document.querySelectorAll('.faq-question').forEach((btn) => {
   });
 })();
 
+// Homepage "Booking Now" form — Formspree submission
+(function () {
+  const form = document.getElementById('booking-form');
+  if (!form) return;
+
+  const submitBtn = form.querySelector('.booking-submit');
+  const errorBox = document.createElement('p');
+  errorBox.className = 'booking-form-error';
+  errorBox.setAttribute('role', 'alert');
+  errorBox.hidden = true;
+  errorBox.innerHTML = 'Sorry, that didn\'t send. Please call <a href="tel:07449984820">07449 984820</a> or try again.';
+  form.appendChild(errorBox);
+
+  const val = (id) => (document.getElementById(id)?.value || '').trim();
+  const serviceSelect = document.getElementById('bf-service');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const service = serviceSelect?.selectedOptions[0]?.textContent.trim() || val('bf-service');
+    const body = new FormData();
+    body.append('_subject', `New Booking Request: ${service}`);
+    body.append('name', val('bf-name'));
+    body.append('phone', val('bf-phone'));
+    body.append('preferred_date', val('bf-date'));
+    body.append('service', service);
+    body.append('message', val('bf-message'));
+    body.append('source', 'Homepage booking form');
+
+    const originalLabel = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    errorBox.hidden = true;
+
+    try {
+      const res = await fetch('https://formspree.io/f/xpqeroav', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body,
+      });
+
+      if (res.ok) {
+        window.location.href = 'thank-you.html';
+      } else {
+        throw new Error('non-ok response');
+      }
+    } catch {
+      errorBox.hidden = false;
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = originalLabel;
+    }
+  });
+})();
+
 
 // ===========================================
 //  CHATBOT WIDGET — lead capture flow
