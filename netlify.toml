@@ -206,6 +206,591 @@
   status = 301
 
 [[redirects]]
+  from = "/boiler-repair.html"
+  to   = "/boiler-repair"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-barnton.html"
+  to   = "/boiler-repair-barnton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-bilston.html"
+  to   = "/boiler-repair-bilston"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-blackford.html"
+  to   = "/boiler-repair-blackford"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-bonnyrigg.html"
+  to   = "/boiler-repair-bonnyrigg"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-bruntsfield.html"
+  to   = "/boiler-repair-bruntsfield"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-buckstone.html"
+  to   = "/boiler-repair-buckstone"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-burdiehouse.html"
+  to   = "/boiler-repair-burdiehouse"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-colinton.html"
+  to   = "/boiler-repair-colinton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-corstorphine.html"
+  to   = "/boiler-repair-corstorphine"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-craigentinny.html"
+  to   = "/boiler-repair-craigentinny"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-craiglockhart.html"
+  to   = "/boiler-repair-craiglockhart"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-craigmillar.html"
+  to   = "/boiler-repair-craigmillar"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-currie.html"
+  to   = "/boiler-repair-currie"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-dalkeith.html"
+  to   = "/boiler-repair-dalkeith"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-danderhall.html"
+  to   = "/boiler-repair-danderhall"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-fairmilehead.html"
+  to   = "/boiler-repair-fairmilehead"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-fountainbridge.html"
+  to   = "/boiler-repair-fountainbridge"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-gilmerton.html"
+  to   = "/boiler-repair-gilmerton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-gorgie.html"
+  to   = "/boiler-repair-gorgie"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-inch.html"
+  to   = "/boiler-repair-inch"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-inverleith.html"
+  to   = "/boiler-repair-inverleith"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-juniper-green.html"
+  to   = "/boiler-repair-juniper-green"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-lasswade.html"
+  to   = "/boiler-repair-lasswade"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-leith.html"
+  to   = "/boiler-repair-leith"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-liberton.html"
+  to   = "/boiler-repair-liberton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-loanhead.html"
+  to   = "/boiler-repair-loanhead"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-moredun.html"
+  to   = "/boiler-repair-moredun"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-morningside.html"
+  to   = "/boiler-repair-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-oxgangs.html"
+  to   = "/boiler-repair-oxgangs"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-polton.html"
+  to   = "/boiler-repair-polton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-polwarth.html"
+  to   = "/boiler-repair-polwarth"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-prestonfield.html"
+  to   = "/boiler-repair-prestonfield"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-roslin.html"
+  to   = "/boiler-repair-roslin"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-stenhouse.html"
+  to   = "/boiler-repair-stenhouse"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-stockbridge.html"
+  to   = "/boiler-repair-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-straiton.html"
+  to   = "/boiler-repair-straiton"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-west-end.html"
+  to   = "/boiler-repair-west-end"
+  status = 301
+
+[[redirects]]
+  from = "/boiler-repair-wester-hailes.html"
+  to   = "/boiler-repair-wester-hailes"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair.html"
+  to   = "/burst-pipe-repair"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-barnton.html"
+  to   = "/burst-pipe-repair-barnton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-bilston.html"
+  to   = "/burst-pipe-repair-bilston"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-blackford.html"
+  to   = "/burst-pipe-repair-blackford"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-bonnyrigg.html"
+  to   = "/burst-pipe-repair-bonnyrigg"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-bruntsfield.html"
+  to   = "/burst-pipe-repair-bruntsfield"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-buckstone.html"
+  to   = "/burst-pipe-repair-buckstone"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-burdiehouse.html"
+  to   = "/burst-pipe-repair-burdiehouse"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-colinton.html"
+  to   = "/burst-pipe-repair-colinton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-corstorphine.html"
+  to   = "/burst-pipe-repair-corstorphine"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-craigentinny.html"
+  to   = "/burst-pipe-repair-craigentinny"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-craiglockhart.html"
+  to   = "/burst-pipe-repair-craiglockhart"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-craigmillar.html"
+  to   = "/burst-pipe-repair-craigmillar"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-currie.html"
+  to   = "/burst-pipe-repair-currie"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-dalkeith.html"
+  to   = "/burst-pipe-repair-dalkeith"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-danderhall.html"
+  to   = "/burst-pipe-repair-danderhall"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-fairmilehead.html"
+  to   = "/burst-pipe-repair-fairmilehead"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-fountainbridge.html"
+  to   = "/burst-pipe-repair-fountainbridge"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-gilmerton.html"
+  to   = "/burst-pipe-repair-gilmerton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-gorgie.html"
+  to   = "/burst-pipe-repair-gorgie"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-inch.html"
+  to   = "/burst-pipe-repair-inch"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-inverleith.html"
+  to   = "/burst-pipe-repair-inverleith"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-juniper-green.html"
+  to   = "/burst-pipe-repair-juniper-green"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-lasswade.html"
+  to   = "/burst-pipe-repair-lasswade"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-leith.html"
+  to   = "/burst-pipe-repair-leith"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-liberton.html"
+  to   = "/burst-pipe-repair-liberton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-loanhead.html"
+  to   = "/burst-pipe-repair-loanhead"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-moredun.html"
+  to   = "/burst-pipe-repair-moredun"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-morningside.html"
+  to   = "/burst-pipe-repair-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-oxgangs.html"
+  to   = "/burst-pipe-repair-oxgangs"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-polton.html"
+  to   = "/burst-pipe-repair-polton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-polwarth.html"
+  to   = "/burst-pipe-repair-polwarth"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-prestonfield.html"
+  to   = "/burst-pipe-repair-prestonfield"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-roslin.html"
+  to   = "/burst-pipe-repair-roslin"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-stenhouse.html"
+  to   = "/burst-pipe-repair-stenhouse"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-stockbridge.html"
+  to   = "/burst-pipe-repair-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-straiton.html"
+  to   = "/burst-pipe-repair-straiton"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-west-end.html"
+  to   = "/burst-pipe-repair-west-end"
+  status = 301
+
+[[redirects]]
+  from = "/burst-pipe-repair-wester-hailes.html"
+  to   = "/burst-pipe-repair-wester-hailes"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-certificate.html"
+  to   = "/landlord-gas-safety-certificate"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-barnton.html"
+  to   = "/landlord-gas-safety-barnton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-bilston.html"
+  to   = "/landlord-gas-safety-bilston"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-blackford.html"
+  to   = "/landlord-gas-safety-blackford"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-bonnyrigg.html"
+  to   = "/landlord-gas-safety-bonnyrigg"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-bruntsfield.html"
+  to   = "/landlord-gas-safety-bruntsfield"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-buckstone.html"
+  to   = "/landlord-gas-safety-buckstone"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-burdiehouse.html"
+  to   = "/landlord-gas-safety-burdiehouse"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-colinton.html"
+  to   = "/landlord-gas-safety-colinton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-corstorphine.html"
+  to   = "/landlord-gas-safety-corstorphine"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-craigentinny.html"
+  to   = "/landlord-gas-safety-craigentinny"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-craiglockhart.html"
+  to   = "/landlord-gas-safety-craiglockhart"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-craigmillar.html"
+  to   = "/landlord-gas-safety-craigmillar"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-currie.html"
+  to   = "/landlord-gas-safety-currie"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-dalkeith.html"
+  to   = "/landlord-gas-safety-dalkeith"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-danderhall.html"
+  to   = "/landlord-gas-safety-danderhall"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-fairmilehead.html"
+  to   = "/landlord-gas-safety-fairmilehead"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-fountainbridge.html"
+  to   = "/landlord-gas-safety-fountainbridge"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-gilmerton.html"
+  to   = "/landlord-gas-safety-gilmerton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-gorgie.html"
+  to   = "/landlord-gas-safety-gorgie"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-inch.html"
+  to   = "/landlord-gas-safety-inch"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-inverleith.html"
+  to   = "/landlord-gas-safety-inverleith"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-juniper-green.html"
+  to   = "/landlord-gas-safety-juniper-green"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-lasswade.html"
+  to   = "/landlord-gas-safety-lasswade"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-leith.html"
+  to   = "/landlord-gas-safety-leith"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-liberton.html"
+  to   = "/landlord-gas-safety-liberton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-loanhead.html"
+  to   = "/landlord-gas-safety-loanhead"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-moredun.html"
+  to   = "/landlord-gas-safety-moredun"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-morningside.html"
+  to   = "/landlord-gas-safety-morningside"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-oxgangs.html"
+  to   = "/landlord-gas-safety-oxgangs"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-polton.html"
+  to   = "/landlord-gas-safety-polton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-polwarth.html"
+  to   = "/landlord-gas-safety-polwarth"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-prestonfield.html"
+  to   = "/landlord-gas-safety-prestonfield"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-roslin.html"
+  to   = "/landlord-gas-safety-roslin"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-stenhouse.html"
+  to   = "/landlord-gas-safety-stenhouse"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-stockbridge.html"
+  to   = "/landlord-gas-safety-stockbridge"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-straiton.html"
+  to   = "/landlord-gas-safety-straiton"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-west-end.html"
+  to   = "/landlord-gas-safety-west-end"
+  status = 301
+
+[[redirects]]
+  from = "/landlord-gas-safety-wester-hailes.html"
+  to   = "/landlord-gas-safety-wester-hailes"
+  status = 301
+
+[[redirects]]
   from = "/boiler-installation-new-town.html"
   to   = "/boiler-installation-new-town"
   status = 301
